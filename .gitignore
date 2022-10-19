@@ -8,6 +8,7 @@
 
 # Node
 /node_modules
+/twitter-backend/node_modules
 npm-debug.log
 yarn-error.log
 
