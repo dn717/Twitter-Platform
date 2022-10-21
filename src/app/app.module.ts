@@ -9,6 +9,7 @@ import { DetailPageComponent } from './detail-page/detail-page.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EditPageComponent } from './edit-page/edit-page.component';
+import { PageNotFoundComponent } from './page-not-found.component';
 
 @NgModule({
   //registring components
@@ -17,7 +18,8 @@ import { EditPageComponent } from './edit-page/edit-page.component';
     HomePageComponent,
     NewTweetPageComponent,
     DetailPageComponent,
-    EditPageComponent
+    EditPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

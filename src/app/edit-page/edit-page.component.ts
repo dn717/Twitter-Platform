@@ -25,7 +25,7 @@ export class EditPageComponent implements OnInit {
       this.id = parseInt(params['id'])
     })
     this._tweetService.fetchTweetDetail(this.id).subscribe(data=> {
-      this.updatedTweet= data
+      this.updatedTweet = data
     })
 
   }

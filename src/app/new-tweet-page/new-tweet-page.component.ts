@@ -25,7 +25,6 @@ export class NewTweetPageComponent implements OnInit {
   }
   submitForm(){
     //update the component to send data to service
-    //create service
     console.log(this.newTweet)
     this._tweetService.createTweet(this.newTweet).subscribe(reponseData=>{
       console.log('This is the reponse data:',reponseData)
